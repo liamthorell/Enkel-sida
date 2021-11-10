@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The 100</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Texturina"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="three.js" type="module"></script>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h6>The 100</h6>
+        <div>
+          <a href="/index.html">Home</a>
+          <a href="/actors.html">Actors</a>
+          <a target="_blank" href="https://www.netflix.com/se/title/70283264"
+            >Watch</a
+          >
+        </div>
+        <span class="material-icons menu" onclick="openMenu()"> menu </span>
+      </nav>
+      <div id="menu" class="overlay">
+        <span class="material-icons close" onclick="closeMenu()"> close </span>
+
+        <div class="overlay-content">
+          <a href="/index.html">Home</a>
+          <a href="/actors.html">Actors</a>
+          <a target="_blank" href="https://www.netflix.com/se/title/70283264"
+            >Watch</a
+          >
+        </div>
+      </div>
+    </header>
+    <section class="first-hero">
+      <img class="hero-image" src="assets/img/hero.jpeg" alt="Hero image" />
+      <div class="hero-overlay hero-background-black">
+        <h2>One of the best series of all time</h2>
+      </div>
+    </section>
+    <section class="canvas-section">
+      <canvas id="canvas"></canvas>
+      <div class="canvas-overlay"></div>
+    </section>
+    <section class="info-section">
+      <div class="info-container animate-right">
+        <div>
+          <h3>Why you should see it</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            explicabo dignissimos repellat, deleniti ut quo magni, debitis
+            dolorem quia, vero maxime corporis iste facilis quibusdam dolor
+            aperiam nisi optio eius?
+          </p>
+        </div>
+
+        <img src="assets/img/helping.jpg" alt="heliping" height="150px" />
+      </div>
+      <div class="info-container animate-left">
+        <img src="assets/img/helping.jpg" alt="heliping" height="150px" />
+        <div>
+          <h3>Pros</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            explicabo dignissimos repellat, deleniti ut quo magni, debitis
+            dolorem quia, vero maxime corporis iste facilis quibusdam dolor
+            aperiam nisi optio eius?
+          </p>
+        </div>
+      </div>
+      <div class="info-container animate-right">
+        <div>
+          <h3>Cons</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            explicabo dignissimos repellat, deleniti ut quo magni, debitis
+            dolorem quia, vero maxime corporis iste facilis quibusdam dolor
+            aperiam nisi optio eius?
+          </p>
+        </div>
+
+        <img src="assets/img/helping.jpg" alt="heliping" height="150px" />
+      </div>
+      <div class="info-container animate-left">
+        <img src="assets/img/helping.jpg" alt="heliping" height="150px" />
+        <div>
+          <h3>Fun info</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            explicabo dignissimos repellat, deleniti ut quo magni, debitis
+            dolorem quia, vero maxime corporis iste facilis quibusdam dolor
+            aperiam nisi optio eius?
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <a href="/index.html">Home</a>
+      <a href="/actors.html">Actors</a>
+      <a target="_blank" href="https://www.netflix.com/se/title/70283264"
+        >Watch</a
+      >
+    </footer>
+    <script src="animation.js" type="module"></script>
+  </body>
+</html>
