@@ -31,8 +31,11 @@
             >Watch</a
           >
         </div>
+        <!-- När du klickar på denna ikon så öppnas en nav-menu anpassat för mindre enheter. -->
         <span class="material-icons menu" onclick="openMenu()"> menu </span>
       </nav>
+      <!-- Denna menyns width är kontrollerad av main.js filen beroende på vilken funktion
+      som körs där. Det visas då en overlay med länkar i mitten centrerat. -->
       <div id="menu" class="overlay">
         <span class="material-icons close" onclick="closeMenu()"> close </span>
 
@@ -45,18 +48,21 @@
         </div>
       </div>
     </header>
+    <!-- huvudsektionen som syns när man går in på sidan -->
     <section class="first-hero">
       <img class="hero-image" src="assets/img/hero.jpeg" alt="Hero image" />
       <div class="hero-overlay hero-background-black">
         <h2>One of the best series of all time</h2>
       </div>
     </section>
+    <!--  Detta är en canvas som visar en 3D-bild av en "the 100" form enligt three.js filen -->
     <section class="canvas-section">
       <canvas id="canvas"></canvas>
       <div class="canvas-overlay"></div>
     </section>
+    <!-- Denna sektion visar olika små-sektioner av fakta om serien. -->
     <section class="info-section">
-      <div class="info-container animate-right">
+      <div class="info-container animate">
         <div>
           <h3>Why you should see it</h3>
           <p>
@@ -69,7 +75,7 @@
 
         <img src="assets/img/helping.jpg" alt="heliping" height="150px" />
       </div>
-      <div class="info-container animate-left">
+      <div class="info-container animate">
         <img src="assets/img/helping.jpg" alt="heliping" height="150px" />
         <div>
           <h3>Pros</h3>
@@ -81,7 +87,7 @@
           </p>
         </div>
       </div>
-      <div class="info-container animate-right">
+      <div class="info-container animate">
         <div>
           <h3>Cons</h3>
           <p>
@@ -94,7 +100,7 @@
 
         <img src="assets/img/helping.jpg" alt="heliping" height="150px" />
       </div>
-      <div class="info-container animate-left">
+      <div class="info-container animate">
         <img src="assets/img/helping.jpg" alt="heliping" height="150px" />
         <div>
           <h3>Fun info</h3>
@@ -107,6 +113,7 @@
         </div>
       </div>
     </section>
+    <!-- Och sist har vi footern för navigering -->
     <footer>
       <a href="index.html">Home</a>
       <a href="actors.html">Actors</a>

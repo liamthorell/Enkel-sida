@@ -1,11 +1,9 @@
-ScrollReveal().reveal(".animate-left", {
-  distance: "80%",
-  duration: 3000,
-  origin: "bottom",
-  opacity: null,
-  scale: 0.7,
-});
-ScrollReveal().reveal(".animate-right", {
+//animerar element som har classen "animate". När användaren skrollar till
+//elementet så kommer elementet att animeras uppåt och förstoras lite.
+//Jag använder mig av "ScrollReveal" javascript librariet för att lätt göra detta.
+//https://scrollrevealjs.org/guide/hello-world.html
+
+ScrollReveal().reveal(".animate", {
   distance: "80%",
   duration: 3000,
   origin: "bottom",

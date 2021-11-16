@@ -82,7 +82,7 @@ nav div a:hover {
   display: block;
   transition: 0.3s;
 }
-
+/* För små enheter så kommer meny-ikonen att visas och länkarna i nav-baren kommer att gömmas */
 @media (max-width: 500px) {
   .menu {
     visibility: visible;
@@ -95,7 +95,8 @@ nav div a:hover {
   }
 }
 
-/* FIRST SECTION STYLES */
+/* INDEX SIDAN */
+/* FÖRSTA SEKTIONEN STYLES */
 .first-hero {
   position: relative;
 }
@@ -130,13 +131,14 @@ nav div a:hover {
     rgba(0, 0, 0, 1) 100%
   );
 }
+/* Reducera font size för mindre enheter */
 @media (max-width: 600px) {
   .hero-overlay h2 {
     font-size: 20px;
   }
 }
-/* SECOND SECTION STYLES (Spinning canvas) */
 
+/* ANDRA SEKTIONEN STYLES (Canvas) */
 .canvas-section {
   position: relative;
 }
@@ -153,8 +155,7 @@ nav div a:hover {
   z-index: 2;
 }
 
-/* THIRD SECTION STYLES (Information) */
-
+/* TREDJE SEKTIONEN STYLES (Information) */
 .info-section {
   margin-top: -5px;
   padding: 50px 10vw;
@@ -172,6 +173,7 @@ nav div a:hover {
 .info-container > div {
   margin: 0 30px;
 }
+/* För mindre enheter, så gör vi så att texten blir under bilden istället för brevid */
 @media (max-width: 600px) {
   .info-section div {
     order: 1;
@@ -182,13 +184,13 @@ nav div a:hover {
   }
 }
 
-/* ACTORS PAGE */
-/* FIRST SECTION STYLES */
+/* ACTORS SIDAN */
+/* FÖRSTA SEKTIONEN STYLES */
 .hero-overlay-green {
   background: rgb(0, 0, 0);
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, #354633 100%);
 }
-/* SECOND SECTION STYLES (Actors) */
+/* ANDRA SEKTIONEN STYLES (Actors) */
 .actors-section {
   margin-top: -5px;
   padding: 50px 10vw;
@@ -214,9 +216,10 @@ nav div a:hover {
 .actors-container > div > h3 {
   color: rgb(233, 222, 222);
 }
-.animate-left.actors-container {
+.right-actors {
   float: right;
 }
+/* För mindre enheter, så gör vi så att texten blir under bilden istället för brevid */
 @media (max-width: 600px) {
   .actors-section div {
     order: 1;
@@ -231,6 +234,7 @@ nav div a:hover {
 }
 
 /* FOOTER */
+/* Här använder jag grid för layouten av footern som man behövde ha ;) */
 footer {
   height: 50px;
   display: grid;

@@ -30,8 +30,11 @@
             >Watch</a
           >
         </div>
+        <!-- När du klickar på denna ikon så öppnas en nav-menu anpassat för mindre enheter. -->
         <span class="material-icons menu" onclick="openMenu()"> menu </span>
       </nav>
+      <!-- Denna menyns width är kontrollerad av main.js filen beroende på vilken funktion
+      som körs där. Det visas då en overlay med länkar i mitten centrerat. -->
       <div id="menu" class="overlay">
         <span class="material-icons close" onclick="closeMenu()"> close </span>
 
@@ -44,14 +47,16 @@
         </div>
       </div>
     </header>
+    <!-- huvudsektionen som syns när man går in på sidan -->
     <section class="first-hero">
       <img class="hero-image" src="assets/img/actors.jpg" alt="Hero image" />
       <div class="hero-overlay hero-overlay-green">
         <h2>Learn more about the actors</h2>
       </div>
     </section>
+    <!-- I denna sektion visas information om några av de viktigaste skådespelarna i serien. -->
     <section class="actors-section">
-      <div class="actors-container animate-right">
+      <div class="actors-container animate right-actors">
         <div>
           <h3>Clarke Griffin</h3>
           <p>
@@ -64,7 +69,7 @@
 
         <img src="assets/img/Clarke.jpg" alt="heliping" />
       </div>
-      <div class="actors-container animate-left">
+      <div class="actors-container animate">
         <img src="assets/img/Bellamy.jpg" alt="heliping" />
         <div>
           <h3>Bellamy Blake</h3>
@@ -76,7 +81,7 @@
           </p>
         </div>
       </div>
-      <div class="actors-container animate-right">
+      <div class="actors-container animate right-actors">
         <div>
           <h3>Octavia Blake</h3>
           <p>
@@ -89,7 +94,7 @@
 
         <img src="assets/img/Octavia.jpg" alt="heliping" />
       </div>
-      <div class="actors-container animate-left">
+      <div class="actors-container animate">
         <img src="assets/img/john.jpg" alt="heliping" />
         <div>
           <h3>John Murphy</h3>
@@ -101,7 +106,7 @@
           </p>
         </div>
       </div>
-      <div class="actors-container animate-right">
+      <div class="actors-container animate right-actors">
         <div>
           <h3>Abby Griffin</h3>
           <p>
@@ -114,7 +119,7 @@
 
         <img src="assets/img/abby.png" alt="heliping" />
       </div>
-      <div class="actors-container animate-left">
+      <div class="actors-container animate">
         <img src="assets/img/marcus.jpg" alt="heliping" />
         <div>
           <h3>Marcus Kane</h3>
@@ -127,6 +132,7 @@
         </div>
       </div>
     </section>
+    <!-- Och sist har vi footern för navigering -->
     <footer>
       <a href="index.html">Home</a>
       <a href="actors.html">Actors</a>
