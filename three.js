@@ -42,7 +42,7 @@ loader.load(
   "assets/3d/The100_Logo.gltf",
   function (gltf) {
     //Här gör vi så att den får en grön färg lika som i abby bilden.
-    const texture = new THREE.TextureLoader().load("assets/img/abby.png");
+    const texture = new THREE.TextureLoader().load("assets/img/abby.webp");
     const material = new THREE.MeshStandardMaterial({ map: texture });
 
     //Här lägger vi in modellen i scenen.
