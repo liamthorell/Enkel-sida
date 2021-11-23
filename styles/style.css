@@ -200,7 +200,36 @@ nav div a:hover {
   background: rgb(0, 0, 0);
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, #354633 100%);
 }
-/* ANDRA SEKTIONEN STYLES (Actors) */
+/* ANDRA SEKTIONEN STYLES (Lista för alla skådespelare) */
+.list-section {
+  padding: 10px 20vw;
+  background-color: #354633;
+}
+/* För större enheter, så gör vi så att vi får mer padding på sidorna så att ramen blir mindre */
+@media (min-width: 800px) {
+  .list-section {
+    padding: 10px 35vw;
+  }
+}
+.list-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 2px #9ed695;
+  border-radius: 10px;
+}
+.list-box h2 {
+  color: white;
+}
+.list-box ul {
+  display: block;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+/* TREDJE SEKTIONEN STYLES (Actors) */
 .actors-section {
   margin-top: -5px;
   padding: 50px 10vw;
