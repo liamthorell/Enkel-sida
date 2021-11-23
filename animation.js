@@ -4,7 +4,7 @@
 //https://scrollrevealjs.org/guide/hello-world.html
 
 ScrollReveal().reveal(".animate", {
-  distance: "80%",
+  distance: "20%",
   duration: 3000,
   origin: "bottom",
   opacity: null,

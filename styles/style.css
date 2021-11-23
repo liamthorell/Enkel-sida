@@ -163,6 +163,7 @@ nav div a:hover {
   margin-top: -5px;
   padding: 50px 10vw;
   background-color: #9ed695;
+  padding-bottom: 100px;
 }
 .info-section h3 {
   font-size: 30px;
@@ -199,6 +200,7 @@ nav div a:hover {
   padding: 50px 10vw;
   background-color: #354633;
   overflow: hidden;
+  padding-bottom: 100px;
 }
 .actors-container {
   display: flex;
